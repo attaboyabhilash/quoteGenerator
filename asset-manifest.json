@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/quoteGenerator/static/css/main.8edb52a6.chunk.css",
+    "main.js": "/quoteGenerator/static/js/main.788bcd72.chunk.js",
+    "main.js.map": "/quoteGenerator/static/js/main.788bcd72.chunk.js.map",
+    "runtime-main.js": "/quoteGenerator/static/js/runtime-main.369b6d9c.js",
+    "runtime-main.js.map": "/quoteGenerator/static/js/runtime-main.369b6d9c.js.map",
+    "static/js/2.da54a5bd.chunk.js": "/quoteGenerator/static/js/2.da54a5bd.chunk.js",
+    "static/js/2.da54a5bd.chunk.js.map": "/quoteGenerator/static/js/2.da54a5bd.chunk.js.map",
+    "index.html": "/quoteGenerator/index.html",
+    "precache-manifest.647d1fa366ebcf8751c9da4f50d361ae.js": "/quoteGenerator/precache-manifest.647d1fa366ebcf8751c9da4f50d361ae.js",
+    "service-worker.js": "/quoteGenerator/service-worker.js",
+    "static/css/main.8edb52a6.chunk.css.map": "/quoteGenerator/static/css/main.8edb52a6.chunk.css.map",
+    "static/js/2.da54a5bd.chunk.js.LICENSE.txt": "/quoteGenerator/static/js/2.da54a5bd.chunk.js.LICENSE.txt",
+    "static/media/myMainLogo.svg": "/quoteGenerator/static/media/myMainLogo.ab462df0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.369b6d9c.js",
+    "static/js/2.da54a5bd.chunk.js",
+    "static/css/main.8edb52a6.chunk.css",
+    "static/js/main.788bcd72.chunk.js"
+  ]
+}
