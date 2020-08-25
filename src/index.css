@@ -1,13 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+/*font-family: 'Lobster Two', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+/*font-family: 'Bangers', cursive;*/
+*{
+  box-sizing: border-box;
+  transition: 500ms ease-in-out;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: #121212;
+  font-family: 'Lobster Two', cursive;
+  color: #FFF;
+  transition: 500ms ease-in-out;
+}
+.headFCC{
+  text-align: center;
+  display: flex;
+  width: 437px;
+  margin: 40px auto 0px auto;
+  justify-content: space-between;
+}
+.headFCC h1{
+  margin: auto;
+  width: fit-content;
+  font-family: 'Bangers', cursive;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+.headFCC img{
+  width: 75px;
+}
+#quote-box{
+  position: relative;
+  width: 550px;
+  height: 300px;
+  background: #333;
+  box-shadow: 0px 0px 64px 20px rgba(0, 0, 0, 1);
+  margin: 50px auto;
+  padding: 40px;
+  border-left: 5px solid #00D09C;
+}
+#text{
+  font-size: 1.7em;
+  margin: auto;
+  width: fit-content;
+  margin: auto auto;
+}
+#author{
+  float: right;
+}
+#tweet-quote{
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  color: #FFF;
+  text-decoration: none;
+  background: #00D09C;
+  padding: 8px 12px;
+  padding-top: 10px ;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+.board{
+  background: #121212;
+  position: absolute;
+  bottom: 3px;
+  left: 43px;
+  width: 107px;
+  padding: 5px;
+  visibility: hidden;
+}
+#tweet-quote:hover .board{
+  visibility: visible;
+}
+#new-quote{
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  background: #00D09C;
+  border: 0;
+  padding: 10px 20px;
+  color: #FFF;
+  outline: none;
+  font-family: 'Lobster Two', cursive;
+  border-radius: 3px;
+}
+#new-quote:active{
+  transform: scale(0.95,0.95);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.foot{
+  width: 320px;
+  text-align: center;
+  margin: 0px auto;
+}
+.foot h6{
+  display: inline-block;
+  font-size: 1.2em;
+  font-weight: 100;
+}
+.name{
+  margin-left: 5px;
+  color: #00D09C;
 }
